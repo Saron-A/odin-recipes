@@ -4,13 +4,82 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-      <li><a href="recipes/lasagna.html">Lasagna</a></li>
-      <li><a href="recipes/chicken_casserole.html">Chicken Casserole</a></li>
-      <li><a href="recipes/brownie.html">Brownie</a></li>
-    </ul>
+    <!-- first section -->
+    <div class="nav">
+      <ul>
+        <li id="recipes">Recipes</li>
+        <li>
+          <div class="input">
+            <input type="text" placeholder="search a dish" />
+            <button>search</button>
+          </div>
+        </li>
+        <!-- To center the input container -->
+        <div class="login">
+          <li><a href="">Login</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Get help</a></li>
+        </div>
+      </ul>
+    </div>
+
+    <!-- Second section -->
+    <h1>Recipes</h1>
+    <div class="recipe-images">
+      <div class="img-text">
+        <!-- Makes the image a clickable link -->
+        <a href="recipes/brownie.html">
+          <img
+            src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets.meredithcorp.io%2Fdd0025dd95da232aabcbafba1cdb1b32%2F1734584555191my-brookie.jpg&q=60&c=sc&poi=auto&orient=true&h=512"
+            alt=""
+          />
+        </a>
+
+        <p>
+          Imagine the rich, fudgy goodness of a brownie and the chewy delight of
+          a cookie combined into one irresistible treat. These hybrid delights
+          boast a crackly top and a soft, gooey center that will leave you
+          reaching for another. Perfect for when you can’t decide between
+          brownies and cookies!
+        </p>
+      </div>
+      <div class="img-text">
+        <a href="recipes/chicken_casserole.html">
+          <img
+            src="https://www.allrecipes.com/thmb/xOZOyQh4DIkvxsQ87RzGB3MKuWc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/26847-swiss-chicken-casserole-ii-Melissa-Rapoza-Fragoza-4x3-1-ea706e1804284e1fbc6c7f056067c390.jpg"
+            alt=""
+          />
+        </a>
+
+        <p>
+          A cozy, one-dish wonder that brings warmth to the table. Succulent
+          chicken pieces blend harmoniously with tender vegetables, enveloped in
+          a creamy sauce, and topped with a crispy, golden crust. It’s the
+          perfect meal for family gatherings and weeknight dinners alike.
+        </p>
+      </div>
+      <div class="img-text">
+        <a href="recipes/lasagna.html">
+          <img
+            src="https://www.allrecipes.com/thmb/iOfxQGOJTdM0K6edW-MFkn-nydE=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/23600-worlds-best-lasagna-DDMFS-4x3-1196-24c5401652934ffb96d3d94bc9fbe2d7.jpg"
+            alt=""
+          />
+        </a>
+
+        <p>
+          A luscious, layered masterpiece that’s both hearty and comforting.
+          Featuring sheets of tender pasta, savory meat or veggie filling, and
+          creamy béchamel sauce, all crowned with melted cheese. Lasagna is the
+          epitome of Italian comfort food that invites you to indulge.
+        </p>
+      </div>
+    </div>
+    <!-- Final Section -->
+    <footer>
+      <p>© 2023 by The Art of Food. Proudly created by Me</p>
+    </footer>
   </body>
 </html>

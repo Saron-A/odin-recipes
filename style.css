@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: rgba(243, 80, 10, 0.945);
+}
+
+#recipes {
+  font-size: x-large;
+  color: rgb(245, 161, 26);
+  font-weight: bold;
+}
+
+.input {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+button {
+  background-color: rgb(243, 80, 10);
+  padding: 3px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.login {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+ul,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+  padding: 5px;
+}
+h1 {
+  text-align: center;
+  color: rgb(245, 125, 26);
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px;
+}
+.recipe-images {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  width: 100%;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.img-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 8px solid rgb(245, 125, 26);
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 300px;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(117, 45, 15);
+}
+
+footer {
+  background-color: rgb(243, 80, 10);
+  color: white;
+  text-align: center;
+  padding: 6px;
+}
