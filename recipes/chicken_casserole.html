@@ -4,62 +4,93 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/recipe.css" />
   </head>
   <body>
-    <h1>Chicken Casserole</h1>
-    <img
-      src="https://www.allrecipes.com/thmb/xOZOyQh4DIkvxsQ87RzGB3MKuWc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/26847-swiss-chicken-casserole-ii-Melissa-Rapoza-Fragoza-4x3-1-ea706e1804284e1fbc6c7f056067c390.jpg"
-      alt="Photo of Swiss Chicken Casserole"
-    />
-    <h2>Description</h2>
-    <p>
-      Chicken casserole is a hearty and versatile dish featuring tender pieces
-      of chicken combined with vegetables like carrots, celery, and peas, all
-      enveloped in a creamy, savory sauce. The sauce, often made from cream of
-      chicken soup or a homemade béchamel, is seasoned with herbs such as thyme
-      or rosemary. The dish is typically layered with a starchy element like
-      pasta, rice, or potatoes, making it a well-rounded meal that's baked to
-      perfection. Topped with a crunchy layer of breadcrumbs, cheese, or crushed
-      crackers, chicken casserole offers a delightful texture contrast. It's a
-      warm and comforting dish, perfect for family dinners, potlucks, or meal
-      prep. The recipe's flexibility allows for the use of various ingredients,
-      making it easy to tailor the flavors to your taste.
-    </p>
-    <h2></h2>
-    <h3>Ingredients</h3>
-    <ul>
-      <li>One can of condensed cream of chicken soup</li>
+    <div class="nav">
+      <ul>
+        <li id="recipes">Recipes</li>
+        <li>
+          <div class="input">
+            <input type="text" placeholder="search a dish" />
+            <button>search</button>
+          </div>
+        </li>
+        <!-- To center the input container -->
+        <div class="login">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="">Login</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Get help</a></li>
+        </div>
+      </ul>
+    </div>
+    <main>
+      <h1>Chicken Casserole</h1>
+      <div class="description">
+        <img
+          src="https://www.allrecipes.com/thmb/xOZOyQh4DIkvxsQ87RzGB3MKuWc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/26847-swiss-chicken-casserole-ii-Melissa-Rapoza-Fragoza-4x3-1-ea706e1804284e1fbc6c7f056067c390.jpg"
+          alt="Photo of Swiss Chicken Casserole"
+        />
+        <div class="desc-para">
+          <h2>Description</h2>
+          <p>
+            Chicken casserole is a hearty and versatile dish featuring tender
+            pieces of chicken combined with vegetables like carrots, celery, and
+            peas, all enveloped in a creamy, savory sauce. The sauce, often made
+            from cream of chicken soup or a homemade béchamel, is seasoned with
+            herbs such as thyme or rosemary. The dish is typically layered with
+            a starchy element like pasta, rice, or potatoes, making it a
+            well-rounded meal that's baked to perfection. Topped with a crunchy
+            layer of breadcrumbs, cheese, or crushed crackers, chicken casserole
+            offers a delightful texture contrast. It's a warm and comforting
+            dish, perfect for family dinners, potlucks, or meal prep. The
+            recipe's flexibility allows for the use of various ingredients,
+            making it easy to tailor the flavors to your taste.
+          </p>
+        </div>
+      </div>
 
-      <li>One fourth cup milk</li>
-      <li>Six skinless, boneless chicken breasts</li>
+      <h2>Ingredients</h2>
+      <ul class="ingredients chicken">
+        <li><b>A.</b> One can of condensed cream of chicken soup</li>
 
-      <li>Six slices of Swiss cheese</li>
-      <li>Two cups of herb-seasoned stuffing mix</li>
-      <li>One fourth butter, melted</li>
-    </ul>
-    <h3>Steps</h3>
-    <ol>
-      <li>
-        Preheat the oven to 350 degrees F (175 degrees C). Grease an 8x12-inch
-        baking dish.
-      </li>
-      <li>
-        Whisk condensed soup and milk together in a small bowl until well
-        combined.
-      </li>
-      <li>
-        Cover and bake in the preheated oven until no longer pink in the center
-        and the juices run clear, about 50 minutes. An instant-read thermometer
-        inserted into the center should read at least 165 degrees F (74 degrees
-        C).
-      </li>
-      <li>
-        Arrange chicken in the prepared baking dish. Layer each breast with a
-        slice Swiss cheese, then spoon soup mixture over top. Sprinkle with
-        stuffing mix and drizzle with butter.
-      </li>
-    </ol>
-    <a href="../index.html">Home</a>
+        <li><b>B.</b> One fourth cup milk</li>
+        <li><b>C.</b> Six skinless, boneless chicken breasts</li>
+
+        <li><b>D.</b> Six slices of Swiss cheese</li>
+        <li><b>E.</b> Two cups of herb-seasoned stuffing mix</li>
+        <li><b>F.</b> One fourth butter, melted</li>
+      </ul>
+
+      <h2>Steps</h2>
+      <div class="steps">
+        <ol>
+          <li>
+            Preheat the oven to 350 degrees F (175 degrees C). Grease an
+            8x12-inch baking dish.
+          </li>
+          <li>
+            Whisk condensed soup and milk together in a small bowl until well
+            combined.
+          </li>
+          <li>
+            Cover and bake in the preheated oven until no longer pink in the
+            center and the juices run clear, about 50 minutes. An instant-read
+            thermometer inserted into the center should read at least 165
+            degrees F (74 degrees C).
+          </li>
+          <li>
+            Arrange chicken in the prepared baking dish. Layer each breast with
+            a slice Swiss cheese, then spoon soup mixture over top. Sprinkle
+            with stuffing mix and drizzle with butter.
+          </li>
+        </ol>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2023 by The Art of Food. Proudly created by Me</p>
+    </footer>
   </body>
 </html>

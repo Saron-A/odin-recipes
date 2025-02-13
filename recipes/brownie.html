@@ -4,93 +4,125 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/recipe.css" />
   </head>
   <body>
-    <h1>Brownie Cookies</h1>
-    <img
-      src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets.meredithcorp.io%2Fdd0025dd95da232aabcbafba1cdb1b32%2F1734584555191my-brookie.jpg&q=60&c=sc&poi=auto&orient=true&h=512"
-      alt="Photo of Brownie Cookies"
-    />
-    <h2>Description</h2>
-    <p>
-      Brownies are a beloved baked treat that epitomizes rich, chocolatey
-      decadence. Traditionally, they are made from a mixture of flour, sugar,
-      eggs, butter, and cocoa powder, which creates a dense, fudgy texture that
-      sets brownies apart from other desserts. Some recipes incorporate melted
-      chocolate or chocolate chips to enhance the flavor and add gooey pockets
-      of chocolate within the brownie. Often, a crackly top layer forms during
-      baking, providing a delightful contrast to the moist and chewy interior.
-      Brownies can be enjoyed on their own, dusted with powdered sugar, or
-      topped with a scoop of vanilla ice cream for an indulgent treat. Brownie
-      cookies are a delightful twist on the classic brownie, offering the same
-      rich, chocolate flavor in a convenient, handheld form. These cookies are
-      typically made by adapting brownie batter into cookie dough, resulting in
-      a treat that boasts a slightly crisp exterior and a soft, fudgy center.
-      They often have the characteristic crinkled tops of brownies and can be
-      enhanced with additions like chocolate chunks, nuts, or even a sprinkle of
-      sea salt. Brownie cookies are perfect for those who love the taste of
-      brownies but prefer the portability and portion control of a cookie,
-      making them an excellent choice for parties, picnics, or simply satisfying
-      a chocolate craving on the go.
-    </p>
-    <h2></h2>
-    <h3>Ingredients</h3>
-    <h4>Cookie Layer</h4>
-    <ul>
-      <li>1/2 cup butter, softened</li>
-      <li>1/2 cup light brown sugar</li>
-      <li>1/4 cup white sugar</li>
-      <li>1/2 teaspoon vanilla extract</li>
-      <li>1 large egg</li>
-      <li>1 1/4 cups all-purpose flour</li>
-      <li>1/2 teaspoon salt</li>
-      <li>1/2 teaspoon baking soda</li>
-      <li>1 cup semisweet chocolate chips</li>
-    </ul>
-    <h4>Brownie Layer</h4>
-    <ul>
-      <li>1 cup white sugar</li>
-      <li>1/2 cup butter, melted</li>
-      <li>1 teaspoon vanilla extract</li>
-      <li>1/2 teaspoon vanilla extract</li>
-      <li>2 eggs</li>
-      <li>1/3 cup cocoa powder</li>
-      <li>1/2 cup all-purpose flour</li>
-      <li>1/4 teaspoon baking powder</li>
-      <li>1/8 teaspoon salt</li>
-    </ul>
-    <h3>Steps</h3>
-    <ol>
-      <li>Gather all ingredients</li>
-      <li>
-        Preheat the oven to 350 degrees F (175 degrees C). Grease a 9x13-inch
-        baking dish.
-      </li>
-      <li>
-        Prepare cookie layer: Beat 1/2 cup butter, 1/2 cup brown sugar, 1/4 cup
-        white sugar, and 1/2 teaspoon vanilla in a large bowl until creamy. Add
-        one egg; beat until light and creamy, about 2 minutes.
-      </li>
-      <li>
-        Whisk 1 1/4 cups flour, 1/2 teaspoon salt, and baking soda in a bowl.
-        Gradually stir flour mixture into butter mixture until dough is
-        combined. Stir chocolate chips into dough. Spread dough evenly into the
-        prepared baking dish; set aside.
-      </li>
-      <li>
-        Prepare brownie layer: Stir 1 cup sugar, 1/2 cup melted butter, and 1
-        teaspoon vanilla in a bowl; add two eggs and beat well. Mix in cocoa
-        powder until well-combined. Stir in 1/2 cup flour, baking powder, and
-        1/8 teaspoon salt until batter is combined. Pour over cookie layer and
-        spread to cover completely.
-      </li>
-      <li>
-        Bake in the preheated oven until a toothpick inserted into the center
-        comes out clean, 20 to 25 minutes. Cool completely before cutting into
-        20 bars. Enjoy!
-      </li>
-    </ol>
-    <a href="../index.html">Home</a>
+    <div class="nav">
+      <ul>
+        <li id="recipes">Recipes</li>
+        <li>
+          <div class="input">
+            <input type="text" placeholder="search a dish" />
+            <button>search</button>
+          </div>
+        </li>
+        <!-- To center the input container -->
+        <div class="login">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="">Login</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Get help</a></li>
+        </div>
+      </ul>
+    </div>
+    <main>
+      <h1>Brownie Cookies</h1>
+      <!-- First Section -->
+      <div class="description">
+        <img
+          src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets.meredithcorp.io%2Fdd0025dd95da232aabcbafba1cdb1b32%2F1734584555191my-brookie.jpg&q=60&c=sc&poi=auto&orient=true&h=512"
+          alt="Photo of Brownie Cookies"
+        />
+        <div class="desc-para">
+          <h2>Description</h2>
+          <p>
+            Brownies are a classic chocolate treat known for their rich, fudgy
+            texture and irresistible flavor. Made from a simple mix of flour,
+            sugar, eggs, butter, and cocoa powder, they often include melted
+            chocolate or chocolate chips for added decadence. A signature
+            crackly top forms during baking, contrasting beautifully with the
+            moist interior. Brownies can be enjoyed plain, dusted with powdered
+            sugar, or paired with ice cream for an extra indulgence. Brownie
+            cookies offer a delightful twist, capturing the same deep chocolate
+            flavor in a handheld form. They have a crisp exterior, a soft, fudgy
+            center, and the signature crinkled top. Often enhanced with
+            chocolate chunks, nuts, or sea salt, they provide the perfect
+            balance of texture and taste. Ideal for those who love brownies but
+            prefer a portable option, brownie cookies are a delicious treat for
+            any occasion, from parties to casual snacking.
+          </p>
+        </div>
+      </div>
+      <!-- Second Section -->
+      <h2>Ingredients</h2>
+      <div class="ingredients">
+        <div class="cookie">
+          <h3>Cookie Layer</h3>
+          <ul>
+            <li>1/2 cup butter, softened</li>
+            <li>1/2 cup light brown sugar</li>
+            <li>1/4 cup white sugar</li>
+            <li>1/2 teaspoon vanilla extract</li>
+            <li>1 large egg</li>
+            <li>1 1/4 cups all-purpose flour</li>
+            <li>1/2 teaspoon salt</li>
+            <li>1/2 teaspoon baking soda</li>
+            <li>1 cup semisweet chocolate chips</li>
+          </ul>
+        </div>
+
+        <div class="brownie">
+          <h3>Brownie Layer</h3>
+          <ul>
+            <li>1 cup white sugar</li>
+            <li>1/2 cup butter, melted</li>
+            <li>1 teaspoon vanilla extract</li>
+            <li>1/2 teaspoon vanilla extract</li>
+            <li>2 eggs</li>
+            <li>1/3 cup cocoa powder</li>
+            <li>1/2 cup all-purpose flour</li>
+            <li>1/4 teaspoon baking powder</li>
+            <li>1/8 teaspoon salt</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Third Section -->
+      <h2>Steps</h2>
+      <div class="steps">
+        <ol>
+          <li>Gather all ingredients</li>
+          <li>
+            Preheat the oven to 350 degrees F (175 degrees C). Grease a
+            9x13-inch baking dish.
+          </li>
+          <li>
+            Prepare cookie layer: Beat 1/2 cup butter, 1/2 cup brown sugar, 1/4
+            cup white sugar, and 1/2 teaspoon vanilla in a large bowl until
+            creamy. Add one egg; beat until light and creamy, about 2 minutes.
+          </li>
+          <li>
+            Whisk 1 1/4 cups flour, 1/2 teaspoon salt, and baking soda in a
+            bowl. Gradually stir flour mixture into butter mixture until dough
+            is combined. Stir chocolate chips into dough. Spread dough evenly
+            into the prepared baking dish; set aside.
+          </li>
+          <li>
+            Prepare brownie layer: Stir 1 cup sugar, 1/2 cup melted butter, and
+            1 teaspoon vanilla in a bowl; add two eggs and beat well. Mix in
+            cocoa powder until well-combined. Stir in 1/2 cup flour, baking
+            powder, and 1/8 teaspoon salt until batter is combined. Pour over
+            cookie layer and spread to cover completely.
+          </li>
+          <li>
+            Bake in the preheated oven until a toothpick inserted into the
+            center comes out clean, 20 to 25 minutes. Cool completely before
+            cutting into 20 bars. Enjoy!
+          </li>
+        </ol>
+      </div>
+    </main>
+    <footer>
+      <p>© 2023 by The Art of Food. Proudly created by Me</p>
+    </footer>
   </body>
 </html>

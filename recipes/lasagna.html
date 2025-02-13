@@ -4,73 +4,109 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/recipe.css" />
   </head>
   <body>
-    <h1>Lasagna</h1>
-    <img
-      src="https://www.allrecipes.com/thmb/iOfxQGOJTdM0K6edW-MFkn-nydE=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/23600-worlds-best-lasagna-DDMFS-4x3-1196-24c5401652934ffb96d3d94bc9fbe2d7.jpg"
-      alt="Photo of the best lasagna in the world"
-    />
-    <h2>Description</h2>
-    <p>
-      Making Lasagna can be time-consuming but the results are well worth the
-      effort. Lasagna is a traditional Italian dish that has become a beloved
-      comfort food around the world. It's a type of pasta casserole made by
-      layering sheets of pasta with a variety of fillings and sauces. The
-      classic lasagna is known as "lasagna al forno" and is typically made with
-      the Pasta, Sauce, Cheese and Béchamel: A creamy white sauce made from
-      butter, flour, and milk, which adds extra richness and creaminess to the
-      dish. These layers are repeated until the dish is full, and then it's
-      baked until the top is golden and bubbling. The result is a delicious,
-      satisfying meal that's perfect for gatherings and special occasions.
-    </p>
-    <h2></h2>
-    <h3>Ingredients</h3>
-    <ul>
-      <li><b>Meat</b>: Italian sausage and lean ground beef</li>
+    <div class="nav">
+      <ul>
+        <li id="recipes">Recipes</li>
+        <li>
+          <div class="input">
+            <input type="text" placeholder="search a dish" />
+            <button>search</button>
+          </div>
+        </li>
+        <!-- To center the input container -->
+        <div class="login">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="">Login</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Get help</a></li>
+        </div>
+      </ul>
+    </div>
+    <main>
+      <!-- First Section -->
+      <h1>Lasagna Al Forno</h1>
+      <div class="description">
+        <img
+          src="https://www.allrecipes.com/thmb/iOfxQGOJTdM0K6edW-MFkn-nydE=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/23600-worlds-best-lasagna-DDMFS-4x3-1196-24c5401652934ffb96d3d94bc9fbe2d7.jpg"
+          alt="Photo of the best lasagna in the world"
+        />
+        <div class="desc-para">
+          <h2>Description</h2>
+          <p>
+            Lasagna is a beloved Italian dish that has gained worldwide
+            popularity as the ultimate comfort food. Though it requires time and
+            effort to prepare, the rich, layered flavors make it well worth it.
+            This hearty pasta casserole consists of alternating layers of tender
+            lasagna sheets, flavorful sauces, and a variety of delicious
+            fillings. The classic <b>lasagna al forno</b> is made with four key
+            components: Pasta, Sauce, Cheese and Bechamel. These layers are
+            carefully assembled and repeated until the dish is full, then baked
+            to perfection until the top turns golden brown and irresistibly
+            bubbly. The result is a warm, comforting meal with a delicious
+            contrast of textures—soft pasta, creamy cheese, and rich, savory
+            sauce. Whether served at family dinners, festive gatherings, or
+            special occasions, lasagna never fails to bring people together with
+            its satisfying flavors.
+          </p>
+        </div>
+      </div>
 
-      <li>
-        <b>Onion and Garlic</b>: An onion and two cloves of garlic cooked with
-        the meat
-      </li>
-      <li>
-        <b>Tomato products</b>: A can of crushed tomatoes, two cans of tomato
-        sauce, and two cans of tomato paste.
-      </li>
+      <h2>Ingredients</h2>
+      <ul class="ingredients lasagna">
+        <li><b>Meat</b> <br />Italian sausage and lean ground beef</li>
 
-      <li><b>Sugar</b>: Two table spoons of white sugar</li>
-      <li>
-        <b>Spices and seasonings</b>: Fresh parsley, dried basil leaves, salt,
-        Italian seasoning, fennel seeds, and black pepper
-      </li>
-      <li><b>Lasagna noodles</b>: Store-bought or homemade lasagna noodles</li>
-      <li><b>Cheese</b>: Parmesan, mozzarella and ricotta cheese</li>
-      <li>
-        <b>Egg</b>: One egg to help bind the ricotta so it doesn't ooze out when
-        cut into it
-      </li>
-    </ul>
-    <h3>Steps</h3>
-    <ol>
-      <li>Make the meat sauce.</li>
-      <li>Cook the noodles</li>
-      <li>Mix the ricotta cheese with an egg and some parsley</li>
-      <li>
-        Layer the lasagna accordingly
-        <ol type="i">
-          <li>Meat sauce</li>
-          <li>Noodles</li>
-          <li>Ricotta cheese mixture</li>
-          <li>Mozzarella cheese</li>
-          <li>Meat sauce</li>
-          <li>Parmesan cheese</li>
-          <li>Repeat the layers, then top with the remaining Parmesan.</li>
+        <li>
+          <b>Onion and Garlic</b> <br />
+          An onion and two cloves of garlic cooked with the meat
+        </li>
+        <li>
+          <b>Tomato products</b> <br />A can of crushed tomatoes, two cans of
+          tomato sauce, and two cans of tomato paste.
+        </li>
+
+        <li><b>Sugar</b> <br />Two table spoons of white sugar</li>
+        <li>
+          <b>Spices and seasonings</b> <br />Fresh parsley, dried basil leaves,
+          salt, Italian seasoning, fennel seeds, and black pepper
+        </li>
+        <li>
+          <b>Lasagna noodles</b> <br />Store-bought or homemade lasagna noodles
+        </li>
+        <li><b>Cheese</b> <br />Parmesan, mozzarella and ricotta cheese</li>
+        <li>
+          <b>Egg</b> <br />One egg to help bind the ricotta so it doesn't ooze
+          out when cut into it
+        </li>
+      </ul>
+      <h2>Steps</h2>
+      <div class="steps">
+        <ol>
+          <li>Make the meat sauce.</li>
+          <li>Cook the noodles</li>
+          <li>Mix the ricotta cheese with an egg and some parsley</li>
+          <li>
+            Layer the lasagna accordingly
+            <ol class="substeps" type="i">
+              <li>Meat sauce</li>
+              <li>Noodles</li>
+              <li>Ricotta cheese mixture</li>
+              <li>Mozzarella cheese</li>
+              <li>Meat sauce</li>
+              <li>Parmesan cheese</li>
+              <li>Repeat the layers, then top with the remaining Parmesan.</li>
+            </ol>
+          </li>
+          <li>Cover with foil and bake.</li>
+          <li>Let the lasagna rest before serving.</li>
         </ol>
-      </li>
-      <li>Cover with foil and bake.</li>
-      <li>Let the lasagna rest before serving.</li>
-    </ol>
-    <a href="../index.html">Home</a>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2023 by The Art of Food. Proudly created by Me</p>
+    </footer>
   </body>
 </html>
